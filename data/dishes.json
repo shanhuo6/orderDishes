@@ -2,10 +2,10 @@
   {
     "id": 1,
     "category": "热菜",
-    "name": "红烧肉",
+    "name": "炸薯条",
     "price": 38,
-    "description": "软糯入味，肥而不腻",
-    "image": "/images/dishes/hongshaorou.jpg",
+    "description": "外焦里糯，香脆可口",
+    "image": "/images/dishes/zhatudou.jpg",
     "available": true
   },
   {
@@ -14,25 +14,43 @@
     "name": "番茄炒蛋",
     "price": 22,
     "description": "家常味道，酸甜可口",
-    "image": "",
+    "image": "/images/dishes/fanqiechaodan.png",
     "available": true
   },
   {
     "id": 3,
-    "category": "凉菜",
-    "name": "拍黄瓜",
-    "price": 12,
-    "description": "清爽开胃",
-    "image": "",
-    "available": true
+    "category": "热菜",
+    "name": "辣椒炒肉",
+    "price": 22,
+    "description": "家常味道，微辣可口",
+    "image": "/images/dishes/lajiaochaorou.png",
+     "available": true
   },
   {
     "id": 4,
+    "category": "热菜",
+    "name": "炒青菜",
+    "price": 22,
+    "description": "家常味道，清淡可口",
+    "image": "/images/dishes/chaoqingcai.png",
+     "available": true
+  },
+  {
+    "id": 5,
+    "category": "凉菜",
+    "name": "香菜牛肉",
+    "price": 12,
+    "description": "清爽开胃",
+    "image": "/images/dishes/xiangcainiurou.jpg",
+    "available": true
+  },
+  {
+    "id": 6,
     "category": "主食",
     "name": "米饭",
     "price": 2,
     "description": "东北大米",
-    "image": "",
+    "image": "/images/dishes/dongbeidami.jpg",
     "available": true
   }
 ]

@@ -39,14 +39,14 @@ export default function PayPage() {
             onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }}
           />
           <div className="absolute inset-0 flex items-center justify-center text-gray-300 text-sm">
-            收款码
+            
           </div>
         </div>
 
         {/* 提示 */}
         <div className="bg-orange-50 rounded-xl px-5 py-4 w-full text-center space-y-1">
-          <p className="text-orange-600 font-medium text-sm">📱 扫码转账后</p>
-          <p className="text-gray-500 text-xs">截图发给我，我马上开始做 🍳</p>
+          <p className="text-orange-600 font-medium text-sm">📱 扫码转账</p>
+          <p className="text-gray-500 text-xs"> 🍳</p>
         </div>
 
         {/* 完成按钮 */}
