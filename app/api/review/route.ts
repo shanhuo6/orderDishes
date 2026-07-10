@@ -2,8 +2,8 @@ import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 
 const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+  'https://ryiiqqttcjiunpgwgsxe.supabase.co',
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ5aWlxcXR0Y2ppdW5wZ3dnc3hlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM2NDIzMzcsImV4cCI6MjA5OTIxODMzN30.JcWE0R_Q9c-KiXDq4AgeOJaEcv54MSl707ZRw0LK0Rw'
 )
 
 // 获取评价列表

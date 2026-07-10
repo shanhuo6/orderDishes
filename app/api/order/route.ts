@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+const resend = new Resend('re_8z83qMd1_NZVncDgXy5F6pHjHeCxzD7XS')
 
 const RICE_LABEL: Record<string, string> = {
   none: '不要米饭',
@@ -48,7 +48,7 @@ ${itemLines}
 
     await resend.emails.send({
       from: 'order@resend.dev',
-      to: process.env.NOTIFY_EMAIL!,
+      to: '2318702434@qq.com',
       subject: `🍽️ 新订单 ¥${Number(totalPrice).toFixed(2)}${name ? ` —— ${name}` : ''}`,
       text: emailBody,
     })
