@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "category": "热菜",
+    "name": "红烧肉",
+    "price": 38,
+    "description": "软糯入味，肥而不腻",
+    "image": "/images/dishes/hongshaorou.jpg",
+    "available": true
+  },
+  {
+    "id": 2,
+    "category": "热菜",
+    "name": "番茄炒蛋",
+    "price": 22,
+    "description": "家常味道，酸甜可口",
+    "image": "",
+    "available": true
+  },
+  {
+    "id": 3,
+    "category": "凉菜",
+    "name": "拍黄瓜",
+    "price": 12,
+    "description": "清爽开胃",
+    "image": "",
+    "available": true
+  },
+  {
+    "id": 4,
+    "category": "主食",
+    "name": "米饭",
+    "price": 2,
+    "description": "东北大米",
+    "image": "",
+    "available": true
+  }
+]
