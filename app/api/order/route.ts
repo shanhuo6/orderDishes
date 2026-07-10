@@ -47,7 +47,7 @@ ${itemLines}
     `.trim()
 
     await resend.emails.send({
-      from: 'order@resend.dev',
+      from: 'onboarding@resend.dev',
       to: '2318702434@qq.com',
       subject: `🍽️ 新订单 ¥${Number(totalPrice).toFixed(2)}${name ? ` —— ${name}` : ''}`,
       text: emailBody,
