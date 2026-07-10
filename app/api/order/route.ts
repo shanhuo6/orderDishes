@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
 
-const resend = new Resend('re_8z83qMd1_NZVncDgXy5F6pHjHeCxzD7XS')
+const resend = new Resend('re_dUNtPGQN_ExJRuo8dY6LqRkJtPYcprk2Q')
 
 const RICE_LABEL: Record<string, string> = {
   none: '不要米饭',
